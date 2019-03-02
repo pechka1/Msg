@@ -1,8 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
 
@@ -14,7 +16,7 @@
 			<div class="time_to_work" id='main'>
 
 				<div class="wrappe_img"><img src="images/clock.png"></div>
-				<p><span>Відчинено:</span> з 10:00 до 19:00</p>
+				<p><span class="open_close">Відчинено:</span><span class="time-of-work">з 9:00 до 17:30</span> </p>
 				<div class="time_to_work_full">
 					<p>Працюємо:</p>
 					<ul>
@@ -29,13 +31,13 @@
 					<a class="anchor" href="#form">Записатись</a>
 				</div>
 			</div>
-			<div class="location">
-				<img src="images/location.png">
+			<a href="#contacts" class="location anchor">
+							<img src="images/location.png">
 				<div class="wrappe">
 					<p>Ленкавського, 17в</p>
 					<p>(тільки за попереднім записом)</p>
 				</div>
-			</div>
+			</a>
 			<div class="telephon_number">
 				<span><img src="images/telephon.png"></span><p>(066)-64-88-763</p>
 			</div>
@@ -71,23 +73,57 @@
 	</aside><section>
 		<div class="block_one">
 			<div class="text_of_first_block">
-				<p>Привет!</p>
-				<p>Вы попали на сайт о мануальной терапии.</p>
-				<p>Здесь вы найдете информацию о лечении позвонка.</p>
-				<p>Мы откроем новые решения старых проблем!</p>
+				<div class="owl-carousel owl-theme">
+				    <div class="item" style="background-image:url('images/background_block_1.jpg')">
+					    <div class="wrappe_text">
+							<p>Привет!</p>
+							<p>Вы попали на сайт о мануальной терапии.</p>
+							<p>Здесь вы найдете информацию о лечении позвонка.</p>
+							<p>Мы откроем новые решения старых проблем!</p>
+						</div>		
+				    	
+				    </div>
+				    <div class="item" style="background-image:url('images/item_2.jpg')">
+				    	 <div class="wrappe_text">
+							<p>ЗДАРОВ Я ХРЕБЕТ(НЕ ЛЮДИНИ)</p>
+						</div>
+				    	
+				    </div>
+				    <div class="item" style="background-image:url('images/item_3.jpg')">
+				    	 <div class="wrappe_text">
+							<p>НУ ТІПА ТАК</p>
+						</div>
+				    </div>
+				</div>
 			</div>
-		</div>
+	</div>
 
 		<div class="block_two">
-			<div class="our_work">
-				<h2>Як в нас відбувається лікування?</h2>
-				<p>Післі проведення діагностики встановлюється причини захворювання.</p>
-				<p>Далі ми призначаємо найефективнішу методику в індивідуальному порядку</p>
-			</div>
-			<div class="image_block_two">
-				<div  style="background-image: url('images/block_2_1.jpg');"></div>
-				<div  style="background-image: url('images/block_2_2.jpg');"></div>
-				<div  style="background-image: url('images/block_2_3.jpg');"></div>
+			<div class="big_line"></div>
+			<div class="block_two_wrappe">
+				<div class="our_work">
+					<h2>Як в нас відбувається лікування?</h2>
+					<p>Післі проведення діагностики встановлюється причини захворювання.</p>
+					<p>Далі ми призначаємо найефективнішу методику в індивідуальному порядку</p>
+				</div>
+				<div class="image_block_two">
+
+					<div class="wrappe_item_med">
+						<div class="img_med" style="background-image: url('images/block_2_1.jpg');"></div>
+						<div class="text_med"><p>Коррекція хрибців</p><p>мануальна терапія</p></div>
+					</div>
+
+					<div class="wrappe_item_med">
+						<div class="img_med" style="background-image: url('images/block_2_2.jpg');"></div>
+						<div class="text_med"><p>Відновлення м’язових функцій</p><p>Трігер терапія</p></div>
+					</div>
+
+					<div class="wrappe_item_med">
+						<div class="img_med" style="background-image: url('images/block_2_3.jpg');"></div>
+						<div class="text_med"><p>Фіксація коррекції</p><p>кінезітерапія</p></div>
+					</div>
+				</div>
+			<div class="next"><a href="">Детальніше</a></div>
 			</div>
 		</div>
 
@@ -108,51 +144,91 @@
 						- учитывать противопоказаниями данные врачем;<br>
 						- регулярное выполнение упражнений прописаных <br>конкретно для вас.</p>
 					</div>
+					<a href="">Детальніше</a>
 				</div>
 				
 			</div>
+			<div class="line"></div>
 		</div>
 
 		<div class="block_four" id='contacts'>
-			<div class="location_map" style="background-image: url(images/location_.jpg);">
-				<div class="trap"></div>
-				<div class="mask_map">
-					<div class="logo_text">
-						<h2>A.M.IF.</h2>
-						   <p><span>Мануальна терапія та масаж</span></p>
+			<div class="location_map" style="background-image: url(images/back_4.jpg);">
+					<div class="trap"></div>
+					<div class="mask_map">
+						<div class="logo_text">
+							<h2>A.M.IF.</h2>
+							   <p><span>Мануальна терапія та масаж</span></p>
+						</div>
+						<div class='location_adress'>
+							<p><span>м. Івано-Франківськ, .</span>
+							   <span>вул Ленкавського 17в</span></p>
+						</div>
+						<div class="telephon_number">
+							<p><span>+3 8 (066) 64 88 763</span>
+							   <span>Тільки за попереднім записом</span></p>
+						</div>
+						<div class="email_contact">
+							<p><span>chiropractica@bk.ru</span>
+							   <span>Для зв’язку</span></p>
+						</div>
 					</div>
-					<div class='location_adress'>
-						<p><span>м. Івано-Франківськ, .</span>
-						   <span>вул Ленкавського 17в</span></p>
-					</div>
-					<div class="telephon_number">
-						<p><span>+3 8 (066) 64 88 763</span>
-						   <span>Тільки за попереднім записом</span></p>
-					</div>
-					<div class="email_contact">
-						<p><span>chiropractica@bk.ru</span>
-						   <span>Для зв’язку</span></p>
-					</div>
-				</div>
-				
 			</div>
 		</div>
 
 		<div class="block_five_form" id="form">
-			<form action="">
+			<div class="vertical_line"></div>
+			<div class="horizontal_line"></div>
+			<form  id="main_form">
 				<h3>Напишіть нам!</h3>
 				<p class="necessarily_line"><span>*</span> — Поле обов'язкове для заповнення</p>
 				<div class="wrappe_form">
 					<div class="name_last">
-						<div class="necessarily"><input  type="text" placeholder="Имя"></div>
+						<div class="necessarily"><input class="nes"  type="text" name="name" placeholder="Имя"></div>
 						<input type="text" placeholder="Фамилия">
 					</div>
-					<div class="necessarily phone"><input type="text" class="necessarily" placeholder="Номер телефона"></div>
+					<div class="necessarily phone"><input class="nes" id='telephon_number' type="phone" name="phone" class="necessarily" placeholder="Номер телефона"></div>
 					<textarea name="" id="comment" placeholder=""></textarea>
 				</div>
-				<div class="submit_button"><button>Надіслати</button><p>Ви автоматично погоджуєтеся з використанням персональних даних</p></div>
+				<div class="submit_button"><button type="submit">Надіслати</button><p>Ви автоматично погоджуєтеся з використанням персональних даних</p></div>
+				<div class="error-line"><p>Заповніть, будь ласка, правильно!</p> </div>
 			</form>
 			
+		</div>
+		<div class="block_six_response">
+			<div class="block_six_response_mask">
+				<div class="wrappe_block_social">
+				<h3>Увійти через:</h3>
+				<div class="social_block_footer">
+					<div>
+						<a href=""><img src="images/inst_b.png"></a>
+						<a href=""><img src="images/faceboo_b.png"></a>
+						<a href=""><img src="images/vk_b.png"></a>
+						<a href=""><img src="images/twitter_b.png"></a>
+						<a href=""><img src="images/g+_b.png"></a>
+					</div>
+				</div>
+				<div class="info_block">Ввести данні самостійно</div>
+				</div>
+			</div>
+			<form action="">
+				<div class="name_last_wrappe">
+					<input type="text" placeholder="Ім’я" ">
+					<input type="text" placeholder="Прізвище">
+				</div>
+				<input type="text" placeholder="Номер телефону (приватно)">
+				<input type="text" placeholder="Звідки ви?">
+				<input type="text" placeholder="Діагноз">
+				<textarea placeholder="Відгук:" id="response"></textarea>
+				<div class="wrappe_file_unload">
+					<label class="file_unload">
+				    	<input type="file"/>Додати файл
+					</label>
+				</div>
+				<div class="submit_button">
+					<button type="submit">Надіслати</button>
+					<p>Ви автоматично погоджуєтеся з використанням персональних даних</p>
+				</div>
+			</form>
 		</div>
 	</section>	
 </div>
@@ -192,6 +268,11 @@
 </div>
 </footer>
 <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.paroller.min.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="js/jquery.validate.js"></script>
+<script type="text/javascript" src="js/moment.js"></script>
 <script type="text/javascript" src="js/main.js"></script>	
 </body>
 </html>
